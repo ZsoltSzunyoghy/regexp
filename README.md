@@ -19,3 +19,7 @@ convert icm trace/traffic trace to readable:
 and then with extended setting:
 |\n  -->         here leave replacement part empty
 
+
+remove duplicate lines (sort is needed in advance):
+^(.*)(\n\1)+$ --> $1
+
