@@ -23,3 +23,6 @@ and then with extended setting:
 remove duplicate lines (sort is needed in advance):
 ^(.*)(\n\1)+$ --> $1
 
+escape regexp special characters:
+([\/\.\*\+\?\|\(\)\[\]\{\}]) -> \\$1
+
