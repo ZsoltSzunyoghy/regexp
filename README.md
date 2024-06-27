@@ -24,5 +24,5 @@ remove duplicate lines (sort is needed in advance):
 ^(.*)(\n\1)+$ --> $1
 
 escape regexp special characters (backsplach "\" still needs to be escaped):
-([\/\.\*\+\?\|\(\)\[\]\{\}]) -> \\$1
+`([\/\.\*\+\?\|\(\)\[\]\{\}])` -> \\$1
 
